@@ -1,0 +1,32 @@
+.zimmet-table {
+  .zimmet-table-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border: width 2px;
+  }
+
+  .zimmet-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .zimmet-table th,
+  .zimmet-table td {
+    border: 1px solid #0035b2;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .zimmet-table th {
+    background-color: #f4f4f481;
+  }
+
+  .zimmet-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .zimmet-table tr:hover {
+    background-color: #e2e2e2;
+  }
+}
